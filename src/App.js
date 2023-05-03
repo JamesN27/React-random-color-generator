@@ -37,7 +37,7 @@ export default function App() {
       {Boolean(color) && (
         <div
           style={{
-            backgroundColor: '#29f4a0',
+            backgroundColor: color,
             marginTop: '30px',
           }}
         >
