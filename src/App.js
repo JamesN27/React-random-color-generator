@@ -34,15 +34,14 @@ export default function App() {
           Generate
         </button>
       </div>
-      {Boolean(color) && (
-        <div
-          style={{
-            marginTop: '30px',
-          }}
-        >
-          Generated Color: {color}
-        </div>
-      )}
+
+      <div
+        style={{
+          marginTop: '30px',
+        }}
+      >
+        Generated Color: {color}
+      </div>
     </div>
   );
 }
