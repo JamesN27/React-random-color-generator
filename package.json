@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@upleveled/react-scripts": "5.0.5",
+    "randomcolor": "^0.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -35,8 +36,10 @@
     ]
   },
   "devDependencies": {
+    "@types/randomcolor": "^0.5.7",
     "@types/react": "^18.2.1",
     "@types/react-dom": "^18.2.2",
+    "@types/testing-library__jest-dom": "^5.14.5",
     "eslint-config-upleveled": "^4.1.9",
     "stylelint": "^15.6.1",
     "stylelint-config-upleveled": "^1.0.2",
