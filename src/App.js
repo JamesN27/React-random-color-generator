@@ -1,5 +1,6 @@
 import randomColor from 'randomcolor';
 import React, { useState } from 'react';
+import oddspedia from './oddspedia.png';
 
 export default function App() {
   const [color, setColor] = useState('');
@@ -42,6 +43,19 @@ export default function App() {
       >
         Generated Color: {color}
       </div>
+
+      <footer
+        style={{
+          marginTop: '30px',
+          textAlign: 'center',
+          color: '#888',
+        }}
+      >
+        <p>Data powered by Oddspedia</p>
+        <a href="https://oddspedia.com/">
+          <img src={oddspedia} alt="Logo" width={250} height={50} />
+        </a>
+      </footer>
     </div>
   );
 }
